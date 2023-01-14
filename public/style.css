@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0pt 50pt 10pt 80pt;
+}
+
+.logoMenuContainer{
+    display: flex;
+}
+
+.logoMenuContainer img{
+    padding:11pt 5pt 5pt 10pt;
+}
+
+.logo{
+    height: 80pt;
+    width: 100pt;
+}
+
+.menuContainer{
+    display: flex;
+}
+
+.menuContainer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 14pt 10pt 10pt 0pt;
+    margin-left: 20pt;
+    font-size: 16pt;
+    color: rgb(102 112 133);
+}
+
+.logContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logContainer button {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 15pt 10pt 15pt 10pt;
+    font-size: 16pt;
+    color: rgb(102 112 133); 
+}
+
+.mid-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 img{
+    transform: scale(1.2);
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.rectangle{
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 10%;
+    width: 30%;
+}
+
+.horse{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 6%;
+    width: 7%;
+}
+
+.cone{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 18%;
+    width: 7%;
+}
+
+.searchImgDiv{
+    display: inline-block;
+}
+
+.galleryDiv{
+    text-align: center;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.sc-bwzfXH{
+    display: none;
+}
+
+
+#span1{
+    position: absolute;
+    font-size: 65pt;
+    margin-left: 15%;
+    margin-top: 10.5%;
+    transform: rotate(-10deg);
+    color: rgb(255 18 118);
+    font-family: 'Nunito', sans-serif;
+    font-weight:800;
+}
+
+#span2{
+    position: absolute;
+    font-size: 60pt;
+    margin-left: 22%;
+    margin-top: 18%;
+    color: rgb(251 166 40);
+    font-family: 'Nunito', sans-serif;
+    font-weight:900;
+}
+
+#span3{
+    position: absolute;
+    font-size: 20pt;
+    margin-left: 15%;
+    margin-top: 25%;
+    width: 30%;
+    color: rgb(149 149 149);
+    font-family: 'Nunito', sans-serif;
+}
+
+#shopNowBtn{
+    position: absolute;
+    font-size: 20pt;
+    margin-left: 15%;
+    margin-top: 31%;
+    width: 11%;
+    height: 7%;
+    border-radius: 8pt;
+    color: rgb(255 255 255);
+    background-color:  rgb(255 18 118);
+    border: none;
+}
+
+#signUpButton{
+    color: rgb(255 255 255);
+    background-color: rgb(127 86 217);
+    border-radius: 10pt;
+    width: 90pt;
+    height: 45pt;
+    margin-left: 15pt;
+}
+
