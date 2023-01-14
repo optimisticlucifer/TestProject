@@ -3,15 +3,13 @@ import React from "react";
 
 function Searchbar() {
     return (
-        <div>
-            <button className="searchBox">
-                <div className="searchImgDiv">
-                    <img src={require('../assets/search/search-lg.png')} />
-                </div>
-                    <span>Find your product</span>
-                    <input type="text" name="searchBox" id="searchBox" placeholder="Search" />
+        <button className="searchBox">
+            <button className="searchImgDiv">
+                <img src={require('../assets/search/search-lg.png')} />
             </button>
-        </div>
+            <span>Find your product</span>
+            <input type="text" name="searchBox" id="searchBox" placeholder="Search" />
+        </button>
     );
 }
 

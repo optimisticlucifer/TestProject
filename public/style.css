@@ -86,18 +86,97 @@ header{
     width: 7%;
 }
 
+.searchBox{
+    background-color: rgb(255 18 118);
+    border: none;
+    border-radius: 51pt;
+    box-shadow: 5pt 7pt 10pt 0pt rgb(237, 152, 187);
+    padding: 0.5%;
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 45%;
+}
+
 .searchImgDiv{
     display: inline-block;
+    position: relative;
+    left: -6%;
+    top: 6px;
+    border: none;
+    background-color: rgb(251 230 40);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
+
+.searchBox span{
+    color:  rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+    font-weight:400;
+    font-size: 250%;
+    position: relative;
+    left: -1%;
+}
+
+.toppick{
+    margin-top: 4%;
+    text-align: center;
+    width: 45%;
+    margin-left: 25%;
+}
+
+.toppick span{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+
+
 
 .galleryDiv{
-    text-align: center;
-    width: 95%;
-    margin-left: 2%;
+
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
-.sc-bwzfXH{
-    display: none;
+.arrowDiv img{
+    margin: 1%;
+}
+
+.item button{
+    margin: 15px 0 15px 0;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 52pt;
+}
+
+.sc-bdVaJa img[type="prev"]{
+    position: relative;
+    top: 375px;
+    left: 47%;
+}
+
+.sc-bdVaJa img[type="next"]{
+    position: relative;
+    top: 83px;
+    left: 51%;
+}
+
+#searchBox{
+    border-radius: 29pt;
+    border: none;
+    color: rgb(211, 208, 208);
+    width: 45%;
+    height: 60px;
+    position: relative;
+    top: -5px;
+    left: 5%;
+    font-size: 20px;
+    padding: 20px;
+
 }
 
 
@@ -109,7 +188,7 @@ header{
     transform: rotate(-10deg);
     color: rgb(255 18 118);
     font-family: 'Nunito', sans-serif;
-    font-weight:800;
+    font-weight:700;
 }
 
 #span2{
@@ -130,6 +209,27 @@ header{
     width: 30%;
     color: rgb(149 149 149);
     font-family: 'Nunito', sans-serif;
+}
+
+#span4{
+    color: rgb(255 18 118);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+#span5{
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25pt;
+}
+
+#span6{
+    color: rgb(102 112 133);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 15pt;
 }
 
 #shopNowBtn{
